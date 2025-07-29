@@ -25,10 +25,10 @@ jobs:
           java-version: '17'
 
       # ✅ Step 3: Set up Flutter
-      - name: Install Flutter 3.24.5
+      - name: Install Flutter 3.32.4
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.5'
+          flutter-version: '3.32.4'
 
       # ✅ Step 4: Run flutter pub get
       - name: Install Dependencies
